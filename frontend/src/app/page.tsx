@@ -8,8 +8,8 @@ export default function Home(){
   
         <div className="w-[940px] relative">
           <h1 className="text-[150px] absolute top-[150px]  font-medium ">Data<span className="text-green-500">Charm</span></h1>
-          <h1 className="text-[60px] absolute top-[350px] text-sky-500 hover:text-green-600 transition-colors duration-500 font-medium "> Tool For Data Preview</h1>
-          <button className="rounded-2xl w-50 h-15 text-2xl bg-white hover:bg-green-600 text-black absolute top-[450px] left-[30px] "> Upload Files</button>
+          <h1 className="text-[60px] absolute top-[350px]  hover:text-green-500 transition-colors duration-500 font-medium"> Tool For <span className="text-yellow-300">Data Preview</span> </h1>
+          <button className="rounded-2xl w-50 h-15 text-2xl bg-blue-500  hover:bg-yellow-400 hover:text-black transition-colors duration-500 absolute top-[450px] left-[20px] "> Upload Files</button>
         </div>
        <div className="">
         <Ball/>
