@@ -46,12 +46,13 @@ export default function Ball() {
       const colors = [
         0x3b82f6, // blue-500
         0x00ee00,
-       0xffd700 // yellow-500
+ 
+       0xff0000
       ]
 
       const marbleGeometry = new THREE.SphereGeometry(0.15, 64, 64)
 
-      for (let i = 0; i < 30; i++) {
+      for (let i = 0; i < 20; i++) {
         const colorIndex = i % 3
         const marbleMaterial = new THREE.MeshPhongMaterial({
           color: colors[colorIndex],

@@ -7,9 +7,9 @@ export default function Home(){
     <div className="p-10 flex min-h-screen ">
   
         <div className="w-[940px] relative">
-          <h1 className="text-[150px] absolute top-[150px]  font-medium ">Data<span className="text-green-500">Charm</span></h1>
-          <h1 className="text-[60px] absolute top-[350px]  hover:text-green-500 transition-colors duration-500 font-medium"> Tool For <span className="text-yellow-300">Data Preview</span> </h1>
-          <button className="rounded-2xl w-50 h-15 text-2xl bg-blue-500  hover:bg-yellow-400 hover:text-black transition-colors duration-500 absolute top-[450px] left-[20px] "> Upload Files</button>
+          <h1 className="text-[150px] absolute top-[150px]  font-medium ">Data<span className="text-green-500 font-bold">Charm</span></h1>
+          <h1 className="text-[60px] absolute top-[350px]  hover:text-blue-500 transition-colors duration-500 font-medium"> Tool For <span className="">Data Preview</span> </h1>
+          <button className="rounded-2xl w-50 h-15 text-2xl bg-red-500  hover:bg-yellow-400 hover:text-black transition-colors duration-500 absolute top-[450px] left-[20px] font-medium "> Upload File</button>
         </div>
        <div className="">
         <Ball/>
