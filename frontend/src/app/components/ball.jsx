@@ -44,16 +44,16 @@ export default function Ball() {
       // Create 10 marble balls with 3 colors
       const marbles = []
       const colors = [
-        0x3b82f6, // blue-500
+        // 0x3b82f6, // blue-500
         0x00ee00,
  
-       0xff0000
+      //  0xff0000
       ]
 
       const marbleGeometry = new THREE.SphereGeometry(0.15, 64, 64)
 
-      for (let i = 0; i < 20; i++) {
-        const colorIndex = i % 3
+      for (let i = 0; i < 40; i++) {
+        const colorIndex = i % 2
         const marbleMaterial = new THREE.MeshPhongMaterial({
           color: colors[colorIndex],
           shininess: 300,
